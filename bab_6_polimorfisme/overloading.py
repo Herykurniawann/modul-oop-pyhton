@@ -1,4 +1,5 @@
 class Pegawai:
+    jumlah = 0
     def __init__(self,nama,gaji):
         self.nama = nama
         self.gaji = gaji
