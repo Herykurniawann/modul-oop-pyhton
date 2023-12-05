@@ -1,5 +1,5 @@
 class Kalkulator: #
-    def __inti__(self,x,y): #ini disrbut class constructor
+    def __init__(self,x,y): #ini disrbut class constructor
         self.A = x #argument x dijadikan atribut A
         self.B = y #argument y dijadikan atribut B
         print("A="+str(x)+",B="+str(y))
@@ -33,4 +33,4 @@ object1.bagi() #menggunakan class method bagi
 
 # Membuat object kedua
 object2 = Kalkulator(2,0) #membuat object sebagai representasi class kalkulator
-object2.bagi2() #menggunakan class method bagi2
+object2.bagi() #menggunakan class method bagi2
